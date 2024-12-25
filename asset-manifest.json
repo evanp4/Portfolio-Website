@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/evanp4/Portfolio-Website/static/js/main.f01f7f3d.js",
+    "static/js/730.cf27003a.js": "/evanp4/Portfolio-Website/static/js/730.cf27003a.js",
+    "static/media/Ionicons.ttf": "/evanp4/Portfolio-Website/static/media/Ionicons.9b6b1954a5eb6efeaf11.ttf",
+    "favicon.ico": "/evanp4/Portfolio-Website/favicon.ico",
+    "index.html": "/evanp4/Portfolio-Website/index.html",
+    "favicon-32.png": "/evanp4/Portfolio-Website/favicon-32.png",
+    "favicon-16.png": "/evanp4/Portfolio-Website/favicon-16.png",
+    "serve.json": "/evanp4/Portfolio-Website/serve.json",
+    "manifest.json": "/evanp4/Portfolio-Website/manifest.json",
+    "main.f01f7f3d.js.map": "/evanp4/Portfolio-Website/static/js/main.f01f7f3d.js.map",
+    "730.cf27003a.js.map": "/evanp4/Portfolio-Website/static/js/730.cf27003a.js.map"
+  },
+  "entrypoints": [
+    "static/js/730.cf27003a.js",
+    "static/js/main.f01f7f3d.js"
+  ]
+}
