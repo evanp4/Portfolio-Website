@@ -1,13 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Linking } from 'react-native';
 
 export default function ProjectOneScreen() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Project One</Text>
-        <Text style={styles.sectionContent}>Description of Project One.</Text>
-        <Text style={styles.sectionContent}>Technologies Used: React Native, JavaScript</Text>
+        <Text style={styles.sectionTitle}>server-one</Text>
+        <Text style={styles.sectionContent}>Multithreaded web server written in C++ using the Boost.Asio library. Designed to handle multiple client connections concurrently, making it suitable for high-concurrency and distributed systems.</Text>
+        <Text style={[styles.sectionContent, styles.link]} onPress={() => Linking.openURL('https://github.com/evanp4/server-one')}>
+          https://github.com/evanp4/server-one
+        </Text>
       </View>
     </ScrollView>
   );
@@ -41,5 +43,9 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     fontFamily: 'Times New Roman',
     color: '#D3D3D3', // Slightly less bright text
+  },
+  link: {
+    color: 'lightgreen',
+    textDecorationLine: 'underline',
   },
 });

@@ -13,15 +13,24 @@ Outside of programming, I am keenly interested in open-source development and so
 I’m currently seeking opportunities to collaborate on innovative, high-impact projects in a dynamic team environment. Feel free to check out my work on GitHub or reach out to me about potential projects.</Text>
       </View>
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Projects</Text>
-      </View>
-      <View style={styles.section}>
         <Text style={styles.sectionTitle}>Work Experience</Text>
         <Text style={styles.sectionContent}>Computer Engineer II, Mikel Inc. (Oct 2022 - Current)</Text>
-        <Text style={styles.sectionContent}>- Implemented and tested acoustic signal processing algorithms for detection, classification, and tracking of submerged maritime contacts in an Agile development environment.</Text>
-        <Text style={styles.sectionContent}>- Analyzed output parity, stability, and computational resource requirements using operational software and algorithm development models.</Text>
-        <Text style={styles.sectionContent}>- Developed and modified toolsets to expedite signal processing analysis, performance evaluation, and geometric reconstruction using primary sensor data and instrumentation measurements for in-water operational exercises.</Text>
-        <Text style={styles.sectionContent}>- Provided performance metrics, qualitative assessments, and briefing material for the Code 8522 Weapons Algorithms Systems Branch at Naval Undersea Warfare Center.</Text>
+        <View style={styles.bulletPoint}>
+          <Text style={styles.bulletIcon}>•</Text>
+          <Text style={styles.bulletText}>Implemented and tested acoustic signal processing algorithms for detection, classification, and tracking of submerged maritime contacts in an Agile development environment.</Text>
+        </View>
+        <View style={styles.bulletPoint}>
+          <Text style={styles.bulletIcon}>•</Text>
+          <Text style={styles.bulletText}>Analyzed output parity, stability, and computational resource requirements using operational software and algorithm development models.</Text>
+        </View>
+        <View style={styles.bulletPoint}>
+          <Text style={styles.bulletIcon}>•</Text>
+          <Text style={styles.bulletText}>Developed and modified toolsets to expedite signal processing analysis, performance evaluation, and geometric reconstruction using primary sensor data and instrumentation measurements for in-water operational exercises.</Text>
+        </View>
+        <View style={styles.bulletPoint}>
+          <Text style={styles.bulletIcon}>•</Text>
+          <Text style={styles.bulletText}>Provided performance metrics, qualitative assessments, and briefing material for the Code 8522 Weapons Algorithms Systems Branch at Naval Undersea Warfare Center.</Text>
+        </View>
         <Text style={styles.sectionContent}>Technologies Used: Python, C, C#, .NET, Matlab, Git, Jira, SQL, Atlassian suite, Windows, Linux</Text>
       </View>
       <View style={styles.section}>
@@ -56,7 +65,7 @@ I’m currently seeking opportunities to collaborate on innovative, high-impact 
         </View>
         <View style={styles.contactItem}>
           <Ionicons name="logo-github" size={20} color="lightgreen" />
-          <Text style={[styles.link, styles.contactText]} onPress={() => Linking.openURL('https://github.com/evanp2')}>https://github.com/evanp2</Text>
+          <Text style={[styles.link, styles.contactText]} onPress={() => Linking.openURL('https://github.com/evanp4')}>https://github.com/evanp4</Text>
         </View>
       </View>
       <View style={styles.footer}>
@@ -71,7 +80,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#2F4F4F', // Slate gray background
-    marginTop: -50, // Adjust this value to move content higher
+    marginTop: -100, // Adjust this value to move content higher
   },
   header: {
     alignItems: 'center',
@@ -152,6 +161,25 @@ const styles = StyleSheet.create({
   footerText: {
     fontSize: 14,
     color: '#888',
+    fontFamily: 'Times New Roman',
+  },
+  bulletPoint: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    marginBottom: 5,
+  },
+  bulletIcon: {
+    fontSize: 16,
+    lineHeight: 24,
+    marginRight: 5,
+    color: '#D3D3D3', // Slightly less bright text
+    fontFamily: 'Times New Roman',
+  },
+  bulletText: {
+    flex: 1,
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#D3D3D3', // Slightly less bright text
     fontFamily: 'Times New Roman',
   },
 });
