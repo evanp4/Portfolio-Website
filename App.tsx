@@ -48,15 +48,15 @@ I’m currently seeking opportunities to collaborate on innovative, high-impact 
         <Text style={styles.sectionTitle}>Contact</Text>
         <View style={styles.contactItem}>
           <Ionicons name="mail" size={20} color="lightgreen" />
-          <Text style={styles.sectionContent}>epillow3@gatech.edu</Text>
+          <Text style={[styles.sectionContent, styles.contactText]}>epillow3@gatech.edu</Text>
         </View>
         <View style={styles.contactItem}>
           <Ionicons name="logo-linkedin" size={20} color="lightgreen" />
-          <Text style={styles.link} onPress={() => Linking.openURL('https://www.linkedin.com/in/evan-pillow-b74107204/')}>https://www.linkedin.com/in/evan-pillow-b74107204/</Text>
+          <Text style={[styles.link, styles.contactText]} onPress={() => Linking.openURL('https://www.linkedin.com/in/evan-pillow-b74107204/')}>https://www.linkedin.com/in/evan-pillow-b74107204/</Text>
         </View>
         <View style={styles.contactItem}>
           <Ionicons name="logo-github" size={20} color="lightgreen" />
-          <Text style={styles.link} onPress={() => Linking.openURL('https://github.com/evanp2')}>https://github.com/evanp2</Text>
+          <Text style={[styles.link, styles.contactText]} onPress={() => Linking.openURL('https://github.com/evanp2')}>https://github.com/evanp2</Text>
         </View>
       </View>
       <View style={styles.footer}>
@@ -136,6 +136,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 5,
+  },
+  contactText: {
+    marginLeft: 5, // Add space between the icon and the text
   },
   link: {
     color: 'lightgreen',
