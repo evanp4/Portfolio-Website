@@ -6,9 +6,20 @@ export default function ProjectOneScreen() {
     <ScrollView style={styles.container}>
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>server-one</Text>
-        <Text style={styles.sectionContent}>Multithreaded web server written in C++ using the Boost.Asio library. Designed to handle multiple client connections concurrently, making it suitable for high-concurrency and distributed systems.</Text>
+        <Text style={styles.sectionContent}>
+          Multithreaded web server written in C++ using the Boost.Asio library. Designed to handle multiple client connections concurrently, making it suitable for high-concurrency and distributed systems.
+        </Text>
         <Text style={[styles.sectionContent, styles.link]} onPress={() => Linking.openURL('https://github.com/evanp4/server-one')}>
           https://github.com/evanp4/server-one
+        </Text>
+      </View>
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Portfolio-Website</Text>
+        <Text style={styles.sectionContent}>
+          React native application written in Typescript and Javascriptw with expo. Utilizes React Navigation and React Native Elements for styling. Deployed with Vercel.
+        </Text>
+        <Text style={[styles.sectionContent, styles.link]} onPress={() => Linking.openURL('https://github.com/evanp4/Portfolio-Website')}>
+        https://github.com/evanp4/Portfolio-Website
         </Text>
       </View>
     </ScrollView>
