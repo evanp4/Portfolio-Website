@@ -16,7 +16,7 @@ export default function ProjectOneScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Portfolio-Website</Text>
         <Text style={styles.sectionContent}>
-          React native application written in Typescript and Javascriptw with expo. Utilizes React Navigation and React Native Elements for styling. Deployed with Vercel.
+          React native application written in Typescript and Javascript with expo. Utilizes React Navigation and React Native Elements for styling. Deployed with Vercel.
         </Text>
         <Text style={[styles.sectionContent, styles.link]} onPress={() => Linking.openURL('https://github.com/evanp4/Portfolio-Website')}>
         https://github.com/evanp4/Portfolio-Website
