@@ -8,9 +8,8 @@ export default function App() {
       <View style={styles.header}>
         <Image source={{ uri: 'https://your-profile-picture-url.com' }} style={styles.profilePic} />
         <Text style={styles.name}>Evan Pillow</Text>
-        <Text style={styles.bio}>I'm a passionate software developer with a strong foundation in data structures, algorithms, and software design principles. I am always excited to solve complex problems and build efficient, high-performance applications. My expertise spans across system programming, multithreading, and distributed systems, with a particular interest in concurrency and performance optimization.
-Outside of programming, I am keenly interested in open-source development and software architecture. I enjoy experimenting with new technologies and continually improving my skills by tackling challenging projects. When I'm not coding, I love reading about emerging tech trends, contributing to tech communities, and exploring the intersection of artificial intelligence and machine learning.
-I’m currently seeking opportunities to collaborate on innovative, high-impact projects in a dynamic team environment. Feel free to check out my work on GitHub or reach out to me about potential projects.</Text>
+        <Text style={styles.bio}>I'm a passionate software developer with a strong foundation in data structures, algorithms, and software design principles. My expertise spans across system programming, multithreading, distributed systems, concurrency, and performance optimization. I am particularly interested in open-source development and software architecture. I enjoy experimenting with new technologies, reading about emerging tech trends, contributing to tech communities, and experimenting with artificial intelligence and machine learning.
+        </Text>
       </View>
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Work Experience</Text>
